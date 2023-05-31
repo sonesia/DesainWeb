@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: calibri, Segoe UI, arial, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #d8d8d886;
+}
+
+#wrapper {
+    width: 780px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+#header {
+    border-radius: 15px;
+    background: #f19f05;
+    height: 110px;
+    width: 99%;
+    padding: 0px;
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+#header img {
+    width: 250px;
+    height: 67px;
+}
+
+#menu-utama {
+    margin-top: 3px;
+    list-style: none;
+}
+
+#menu-utama li {
+    float: left;
+    padding: 8px 20px;
+    border-right: 1px solid #555555;
+}
+
+#menu-utama li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#header form {
+    float: right;
+    margin-top: 0px;
+    margin-right: 10px;
+
+}
+
+#header form input {
+    border: none;
+    height: 20px;
+}
+
+#daftar-artikel {
+    width: 470px;
+    float: left;
+}
+
+.artikel {
+    background: #e8ffe9;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+
+.artikel img {
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+    height: 165px;
+}
+
+.artikel b {
+    color: #ffffff;
+    background: #ee9003;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+.artikel p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.artikel a {
+    display: block;
+    text-align: right;
+    color: #ee9003;
+}
+
+#sidebar {
+    width: 288px;
+    float: right;
+    margin: 0;
+
+}
+
+#sidebar h2 {
+    color: #ffffff;
+    background: #b3b002;
+    font-weight: bold;
+    padding: 3px;
+    font-size: 16px;
+    margin: 0px;
+    margin-left: 0px;
+}
+
+#sidebar p {
+    line-height: 20px;
+    color: #636363;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}
+
+#sidebar ul {
+    margin-left: 15px;
+}
+
+#sidebar ul li {
+    margin-bottom: 5px;
+}
+
+#sidebar ul li a {
+    color: #636363;
+    text-decoration: none;
+
+}
+
+#footer {
+    clear: both;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #ee9003;
+    padding: 5px;
+    color: #ffffff;
+
+}
+
+.form_contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#myfrom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.full-width {
+    grid-column: 1/2;
+}
+
+.form_contact label {
+    display: block;
+}
+
+.form_contact p {
+    margin: 0;
+}
+
+.form_contact button,
+input,
+textarea {
+    padding: lem;
+}
+
+button {
+    background: lightgrey;
+    width: 100%;
+    border: 0;
+}
+
+button:hover,
+button:focus {
+    background: gold;
+    outline: 0;
+}
+
+input:focus,
+textarea:focus {
+    outline: 3px solid gold;
+}

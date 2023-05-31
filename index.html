@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tugas 2 Desain Web</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <img src="images/logo.png" alt="logo" />
+            <ul id="menu-utama">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Services</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+            <form>
+                <input type="text" name="search" />
+            </form>
+        </div>
+
+        <div id="daftar-artikel">
+            <div class="artikel">
+                <img src="images/gambar-artikel.jpg" alt="Gambar Artikel" />
+                <h1>Pengertian Layanan Web</h1>
+                <b>Mei, 31 2023</b><b>Dilihat : 1,000K ++</b>
+                <p> Layanan web adalah teknologi penting dalam pengembangan aplikasi modern. Dalam artikel ini, kita
+                    telah membahas ...</p>
+                <a href="#" class="baca-selengkapnya">Baca Selengkapnya</a>
+                <div class="halaman-selengkapnya" style="display: none;">
+                    <h2>Layanan Web</h2>
+                    <p>Layanan web adalah teknologi penting dalam pengembangan aplikasi modern. Dalam artikel ini, kita
+                        telah membahas dasar-dasar layanan web, termasuk definisi, jenis-jenis layanan web, protokol,
+                        format data, dan implementasi layanan web dengan PHP. Penting bagi pengembang web untuk memahami
+                        konsep dan fitur-fitur ini agar dapat memanfaatkannya secara efektif dalam membangun aplikasi
+                        yang berkomunikasi melalui jaringan internet.</p>
+                </div>
+            </div>
+            <div class="artikel">
+                <img src="images/gambar-artikel1.jpg" alt="Gambar Artikel" />
+                <H1>Jenis Layanan Web</H1>
+                <b>Apr, 01 2023</b><b>Dilihat : 2,000K ++</b>
+                <p> Ada beberapa jenis layanan web yang umum digunakan dalam pengembangan aplikasi web. Berikut adalah
+                    beberapa jenis ...</p>
+                <a href="#" class="baca-selengkapnya">Baca Selengkapnya</a>
+                <div class="halaman-selengkapnya" style="display: none;">
+                    <h2>Jenis Layanan Web</h2>
+                    <p> Ada beberapa jenis layanan web yang umum digunakan dalam pengembangan aplikasi web. Berikut
+                        adalah
+                        beberapa jenis layanan web yang umum:
+                        A. SOAP (Simple Object Access Protocol)
+                        1. Kelebihan SOAP
+                        2. Kekurangan SOAP
+                        B. REST (Representational State Transfer)
+                        1. Karakteristik REST
+                        2. Kelebihan REST
+                        3. Kekurangan REST
+                        C. JSON-RPC (Remote Procedure Call)
+                        1. Konsep JSON-RPC
+                        2. Kelebihan JSON-RPC
+                        3. Kekurangan JSON-RPC</p>
+                </div>
+            </div>
+            <div class="artikel">
+                <img src="images/gambar-artikel2.jpg" alt="Gambar Artikel" />
+                <H1>Protokol dan Format Data</H1>
+                <b>Mar, 01 2023</b><b>Views : 3,000K ++</b>
+                <p>
+                    Dalam layanan web, terdapat beberapa protokol dan format data yang umum digunakan. Berikut adalah
+                    beberapa di antaranya: ...
+                </p>
+                <a href="#" class="baca-selengkapnya">Baca Selengkapnya</a>
+                <div class="halaman-selengkapnya" style="display: none;">
+                    <h2>Protokol dan Format Data</h2>
+                    <p> Dalam layanan web, terdapat beberapa protokol dan format data yang umum digunakan. Berikut
+                        adalah beberapa di antaranya:
+                        A. HTTP (Hypertext Transfer Protocol)
+                        B. XML (eXtensible Markup Language)
+                        C. JSON (JavaScript Object Notation)
+                        Setiap protokol dan format data memiliki kelebihan dan kekurangan sendiri-sendiri, dan pilihan
+                        tergantung pada kebutuhan dan preferensi pengembangan aplikasi Anda. Penting untuk memahami
+                        karakteristik masing-masing dan memilih yang paling sesuai dengan kasus penggunaan Anda.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="sidebar">
+            <h2>PENGERTIAN WEB SERVICE</h2>
+            <p>Web Servcie adalah teknologi penting dalam pengembangan aplikasi modern. Dalam artikel ini, kita
+                telah membahas dasar-dasar layanan web, termasuk definisi, jenis-jenis layanan web, protokol,
+                format data, dan implementasi layanan web dengan PHP. Penting bagi pengembang web untuk memahami
+                konsep dan fitur-fitur ini agar dapat memanfaatkannya secara efektif dalam membangun aplikasi
+                yang berkomunikasi melalui jaringan internet.
+                <h2>MATERI WEB SERVICE</h2>
+                <ul>
+                    <li><a href="https://codepolitan.com/blog/mengenal-soap-web-services">
+                            SOAP (Simple Object Access Protocol)</a></li>
+                    <li><a href="https://codepolitan.com/blog/mengenal-restful-web-services">
+                            REST (Representational State Transfer)</a></li>
+                    <li><a href="https://www.jagoanhosting.com/blog/web-service-adalah/">
+                            JSON-RPC (Remote Procedure Call)</a></li>
+                    <li><a href="https://codepolitan.com/course/intro/belajar-http/">
+                            HTTP (Hypertext Transfer Protocol)</a></li>
+                    <li><a href="https://codepolitan.com/blog/belajar-metode-xml-rpc-di-java-57de4ddf00fce-106/">
+                            XML (eXtensible Markup Language)</a>
+                    </li>
+                    <li><a href="https://codepolitan.com/blog/apa-itu-json-format-data-universal/">
+                            JSON (JavaScript Object Notation)</a></li>
+                </ul>
+        </div>
+        <div id="footer">
+            <p>Copyright 2023 by Sony S N</p>
+        </div>
+    </div>
+</body>
+<script>
+    // Menangkap semua tombol "Baca Selengkapnya"
+    var buttons = document.querySelectorAll(".baca-selengkapnya");
+
+    // Menangani klik tombol "Baca Selengkapnya"
+    buttons.forEach(function (button) {
+        button.addEventListener("click", function (event) {
+            event.preventDefault(); // Menghentikan aksi default link
+
+            // Menangkap halaman selengkapnya yang terkait dengan tombol yang diklik
+            var halamanSelengkapnya = this.nextElementSibling;
+
+            // Menampilkan atau menyembunyikan halaman selengkapnya
+            if (halamanSelengkapnya.style.display === "none") {
+                halamanSelengkapnya.style.display = "block";
+                this.textContent = "Tutup";
+            } else {
+                halamanSelengkapnya.style.display = "none";
+                this.textContent = "Baca Selengkapnya";
+            }
+        });
+    });
+</script>
+
+</html>
